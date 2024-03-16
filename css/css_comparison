@@ -1,0 +1,86 @@
+/* Styling the navigation bar */
+#main-navbar {
+  background-color: blue;
+  overflow: hidden;
+  text-align: center; /* Center the navigation links */
+}
+
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#main-navbar ul li {
+  display: inline-block; /* Display the list items horizontally */
+}
+
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#main-navbar ul li a:hover {
+  background-color: #000;
+}
+
+/* Styling the side navigation bar */
+#sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: red;
+  height: 100%;
+  width: 20%;
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+#sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#sidebar ul li a {
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+  background-color: #000;
+}
+
+/* Remove default browser styling for tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Custom CSS heading */
+h1 {
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Custom CSS for italic text */
+em {
+  font-style: italic;
+}
+
+/* Custom CSS for bold text */
+strong {
+  font-weight: bold;
+}
