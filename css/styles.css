@@ -54,9 +54,9 @@ body {
 }
 
 /* Styling for Google, LinkedIn, and Basecamp links */
-#main-navbar ul li a.Google,
-#main-navbar ul li a.LinkedIn,
-#main-navbar ul li a.Basecamp {
+#sidebar-container ul li a.Google,
+#sidebar-container ul li a.LinkedIn,
+#sidebar-container ul li a.Basecamp {
   font-weight: bold;
   color: blue;
 }
