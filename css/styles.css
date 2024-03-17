@@ -1,6 +1,6 @@
 /* Navigation */
 nav {
-    background-color: blue;
+    background-color: transparent;
     overflow: hidden;
     width: 100%;
     position: relative;
@@ -8,6 +8,7 @@ nav {
     margin: 0;
     padding: 0;
     text-align: center;
+    border-bottom: 2px solid blue; /* Add border color to the bottom */
 }
 
 nav a {
@@ -20,13 +21,14 @@ nav a {
 /* Sidebar */
 aside {
     position: fixed;
-    right: 0%;
+    right: 0;
     background-color: red;
     width: 20%;
     height: 100%;
     list-style-type: none;
     padding: 0;
     text-align: center;
+    overflow-y: auto; /* Allow sidebar to scroll */
 }
 
 aside a {
