@@ -1,39 +1,78 @@
-/* Navigation */
-nav {
-    background-color: transparent;
-    overflow: hidden;
-    width: 100%;
-    position: relative;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    border-bottom: 2px solid blue; /* Add border color to the bottom */
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-nav a {
-    display: inline-block;
-    padding: 15px 20px;
-    color: #fff;
-    text-decoration: none;
+/* Custom CSS */
+
+body {
+  font-family: Arial, sans-serif;
 }
 
-/* Sidebar */
-aside {
-    position: fixed;
-    right: 0;
-    background-color: red;
-    width: 20%;
-    height: 100%;
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-    overflow-y: auto; /* Allow sidebar to scroll */
+/* Centered navigation */
+#main-navbar {
+  background-color: blue;
+  overflow: hidden;
+  text-align: center;
 }
 
-aside a {
-    display: block;
-    padding: 15px 0;
-    color: #fff;
-    text-decoration: none;
+#navbar-container {
+  width: 100%;
 }
+
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+#main-navbar ul li {
+  display: inline-block;
+}
+
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#main-navbar ul li a:hover {
+  background-color: #000;
+}
+
+/* Styling for active page */
+#onpage {
+  text-decoration: underline overline;
+}
+
+/* Side navigation */
+#sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: red;
+  height: 100%;
+  width: 20%;
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+#sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#sidebar ul li a {
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+  background-color: #000;
+}
+
