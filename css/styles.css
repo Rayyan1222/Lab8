@@ -28,7 +28,7 @@
 
 /* Styling the side navigation bar */
 #sidebar {
-  position: fixed;
+  /* position: fixed; */ /* Remove fixed position */
   top: 0;
   right: 0;
   background-color: red;
@@ -84,3 +84,4 @@ em {
 strong {
   font-weight: bold;
 }
+
