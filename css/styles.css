@@ -1,40 +1,25 @@
-/* Reset default browser styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Custom CSS */
-
-body {
-  font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom right, #f3c5ff, #a8cfff);
-}
-
-/* Centered navigation */
 #main-navbar {
-  background-color: blue;
+  background-color: blue; 
   overflow: hidden;
-  text-align: center;
-}
-
-#navbar-container {
-  width: 100%;
 }
 
 #main-navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
+  float: left;
+  left: 50%;
+  list-style-type: none;               
+  margin: 0;                               
+  padding: 0;                             
+  position: relative;    
 }
 
 #main-navbar ul li {
-  display: inline-block;
+  display: block;
+  float: left;
+  position: relative;
+  right: 50%;
 }
 
-#main-navbar ul li a {
+#main-navbar ul li a{
   display: block;
   padding: 10px 20px;
   color: #fff;
@@ -42,48 +27,40 @@ body {
 }
 
 #main-navbar ul li a:hover {
-  background-color: #000;
+   background-color: #000;
 }
 
-/* Styling for active page */
-#onpage {
-  font-style: italic;
-  font-weight: bold;
-  font-family: cursive;
-  text-decoration: underline overline;
+#navbar-container {
+  width: 100%;
+  position: relative;
+  float: left;
 }
 
-/* Styling for Google, LinkedIn, and Basecamp links */
-#sidebar-container ul li a.Google,
-#sidebar-container ul li a.LinkedIn,
-#sidebar-container ul li a.Basecamp {
-  font-weight: bold;
-  color: blue;
+#main-navbar #onpage {
+   text-decoration: underline overline;
 }
 
-/* Side navigation */
 #sidebar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  background-color: rgba(255, 255, 255, 0.9); /* Light color for better contrast */
+  background-color: red;
   height: 100%;
   width: 20%;
-  overflow-y: auto; /* Enable vertical scrolling */
+  position: fixed;
 }
 
 #sidebar ul {
   list-style-type: none;
+  right:0%;
   padding: 0;
 }
 
-#sidebar ul li a {
-  display: block;
-  padding: 15px 0;
-  color: #000; /* Adjust text color for better visibility */
+#sidebar ul li a{
   text-decoration: none;
+  display: block;
+  text-align: center;
+  color: #fff;
+  padding: 15px 0;
 }
 
-#sidebar ul li a:hover {
-  background-color: #ddd; /* Light grey on hover for better visibility */
+#sidebar ul li a:hover{
+  background-color: #000;
 }
