@@ -64,8 +64,6 @@ body {
 /* Side navigation */
 #sidebar {
   position: fixed;
-  top: 0;
-  right: 0;
   background-color: rgba(255, 255, 255, 0.9); /* Light color for better contrast */
   height: 100%;
   width: 20%;
