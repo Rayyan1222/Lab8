@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(158, 222, 199); 
+}
 
 #main-navbar {
   background-color: rgb(181, 137, 214);;
@@ -53,7 +56,7 @@
   font-style: italic;
   font-weight: bold;
   font-family: Robotic;
-  color: brown;
+  color: red;
 }
 
 #sidebar ul {
