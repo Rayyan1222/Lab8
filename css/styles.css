@@ -1,14 +1,13 @@
-/* Navigation */
+
 #main-navbar {
-  background-color: blue;
+  background-color: rgb(181, 137, 214);;
   overflow: hidden;
-  float: left;
-  width: 100%;
-  position: relative;
 }
 
 #navbar-container {
+  float: left;
   width: 100%;
+  position: relative;
 }
 
 #main-navbar ul {
@@ -21,18 +20,16 @@
 }
 
 #main-navbar ul li {
-  display: block;
   float: left;
   position: relative;
   right: 50%;
+  display: block;
 }
 
 #main-navbar ul li a {
   display: block;
   padding: 10px 20px;
   color: #fff;
-  text-decoration: underline overline;
-  background-color: #000;
   text-decoration: none;
 }
 
@@ -40,31 +37,31 @@
   background-color: #000;
 }
 
-/* Sidebar */
+#onpage {
+  text-decoration: none;
+}
+
 #sidebar {
   position: fixed;
-  background-color: red;
+  right:0%;
+  background-color: rgb(251, 238, 172);
   height: 100%;
   width: 20%;
-  overflow-y: auto;
-  right: 0;
 }
 
 #sidebar ul {
   list-style-type: none;
-  padding: 0;
   text-align: center;
+  padding: 0;
 }
 
 #sidebar ul li a {
   display: block;
   padding: 15px 0;
-  color: #fff;
+  color: #000;
   text-decoration: none;
-  background-color: #000;
 }
 
 #sidebar ul li a:hover {
   background-color: #ddd;
 }
-
