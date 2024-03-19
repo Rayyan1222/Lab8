@@ -30,6 +30,9 @@
   display: block;
   padding: 10px 20px;
   color: rgb(144, 238, 144);
+  font-style: italic;
+  font-weight: bold;
+  font-family: cursive;
   text-decoration: none;
 }
 
