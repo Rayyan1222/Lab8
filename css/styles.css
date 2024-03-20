@@ -1,9 +1,5 @@
-body {
-  background-color: rgb(158, 222, 199); 
-}
-
 #main-navbar {
-  background-color: rgb(181, 137, 214);;
+  background-color: blue;
   overflow: hidden;
 }
 
@@ -32,10 +28,7 @@ body {
 #main-navbar ul li a {
   display: block;
   padding: 10px 20px;
-  color: rgb(144, 238, 144);
-  font-style: italic;
-  font-weight: bold;
-  font-family: cursive;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -44,18 +37,15 @@ body {
 }
 
 #onpage {
-  text-decoration: none;
+  text-decoration: underline overline;
 }
 
 #sidebar {
   position: fixed;
   right:0%;
-  background-color: rgb(251, 238, 172);
+  background-color: red;
   height: 100%;
   width: 20%;
-  font-style: italic;
-  font-weight: bold;
-  font-family: Robotic;
 }
 
 #sidebar ul {
@@ -67,10 +57,10 @@ body {
 #sidebar ul li a {
   display: block;
   padding: 15px 0;
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
 #sidebar ul li a:hover {
-  background-color: #ddd;
+  background-color: #000;
 }
